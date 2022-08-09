@@ -210,7 +210,8 @@ header.trip-header-section.sticky-menu .main-menu ul li a{
 
 /* offcanvas menu */
 .main-menu {
-  display: block; 
+  display: block;
+  order: 1;
 }
 .offcanves-menu{
     display: none;

@@ -117,6 +117,8 @@
     /* hero section */
     .home-page.trip-hero-section {
         min-height: auto;
+        background-position: center left;
+        background-image: url(../images/hero-reponsive.png)!important;
     }
     .home-page .trip-hero-content {
         max-width: 230px;
@@ -131,6 +133,7 @@
         margin: 0 0 10px;
         font-size: 12px;
         line-height: 12px;
+        padding: 0 25px;
     }
     .trip-hero-newsletter input {
         height: 24px;
@@ -151,8 +154,11 @@
         margin-top: 10px;
     }
     /* planner*/
-    .trip-section-padding{
-        padding: 25px 0;
+    .trip-section-padding {
+        padding: 50px 0;
+    }
+    .trip-planner-section{
+        background-image: url(../images/planner-responsive.png)!important;
     }
     .trip-default-column {
         max-width: 215px;
@@ -185,6 +191,9 @@
     }
 
     /* trip cta */
+    .trip-cta3-section{
+        background-image: url(../images/cta-responsive.png)!important;
+    }
     .trip-cta3-column {
         display: block;
     }
@@ -286,7 +295,9 @@
         left: auto;
     }
     
-   
+    .trip-planner-card-thumb {
+        margin-bottom: 15px;
+    }
 }
 
 @media (max-width: 667px) {
