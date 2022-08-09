@@ -562,6 +562,7 @@ a.hero-outline-btn.active.blue-bg {
 }
 .trip-slider-thumb {
   flex-shrink: 0;
+  order: 1;
 }
 .trip-slider-data {
   text-align: right;

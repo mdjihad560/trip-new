@@ -98,6 +98,7 @@ $(window).on('scroll', function(){
 var trip_slider = $('.trip-slider');
   if(trip_slider.is_exist()){
     trip_slider.slick({
+      rtl: true,
       infinite: true,
       slidesToShow: 1, 
       slidesToScroll: 1,
