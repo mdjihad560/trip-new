@@ -1,0 +1,322 @@
+/*For bigger screen then normal 1500px desktop*/
+
+@media (min-width: 1500px) {
+  .container {
+    max-width: 1360px;
+  }
+}
+
+@media (min-width: 991px) {
+    header.trip-header-section.sticky-menu {
+        opacity: 0;
+      }
+      .trip-hero-section.sticky-menu{
+        padding: 20px 0 0;
+      }
+  }
+
+@media (min-width: 1200px) and (max-width: 1499px) {
+
+
+}
+
+
+@media only screen and (max-width: 1199px) {
+    a.trip-header-social {
+        display: none;
+    }
+    .main-menu ul li {
+        margin: 0 15px;
+    }
+    .main-menu {
+        margin-right: 30px;
+    }
+    .trip-sidebar{
+        margin: 0;
+    }
+
+    .home-page.trip-hero-section {
+        min-height: 800px;
+
+    }
+  
+   
+
+}
+
+
+
+/*For Tablet Layout*/
+@media(max-width: 991px) {
+    .main-menu {
+        display: none; 
+    }
+    .offcanves-menu{
+        display: block;
+    }
+    .menu-bar{
+        display: block;
+    }
+    .trip-menu-wrap {
+        display: block;
+        text-align: left;
+        margin-left: 50px;
+    }
+    header.trip-header-section.home-page {
+        padding: 18px 0;
+        top: 0;
+        background-color: white;
+        position: fixed;
+    }
+    .home-page.trip-hero-section {
+        min-height: 600px;
+    }
+    .home-page .trip-hero-content h1 {
+        font-size: 50px;
+        line-height: 50px;
+    }
+    /* planner section */
+    .trip-planner-card {
+        flex: 0 0 45%;
+    }
+    /* cta3 section */
+    .trip-cta3-wrap {
+        flex: 0 0 30%;
+    }
+    .trip-cta3-data p {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    /* icon box */
+    .trip-iconbox2-wrap {
+        flex: 0 0 47%;
+    }
+    .trip-brand-item {
+        flex: 0 0 50%;
+        text-align: center;
+    }
+    /* slider section */
+    .trip-slider-data {
+        padding-left: 20px;
+    }
+    .trip-map-red-icon {
+        display: block;
+    }
+
+}
+
+
+/*For Wide Mobile Layout*/
+@media (max-width: 767px) {
+  
+    .trip-logo {
+        display: inline-block;
+        width: 150px;
+    }
+    /* hero section */
+    .home-page.trip-hero-section {
+        min-height: auto;
+    }
+    .home-page .trip-hero-content {
+        max-width: 230px;
+        padding-top: 110px;
+        padding-bottom: 40px;
+    }
+    .home-page .trip-hero-content h1 {
+        font-size: 20px;
+        line-height: 22px;
+    }
+    .home-page .trip-hero-content p {
+        margin: 0 0 10px;
+        font-size: 12px;
+        line-height: 12px;
+    }
+    .trip-hero-newsletter input {
+        height: 24px;
+    }
+    button#hero-newsletter-btn {
+        top: 30%;
+        transform: translate(-50%, -50%);
+        right: auto;
+        left: 50%;
+        font-size: 14px;
+    }
+    button#hero-newsletter-btn img {
+        width: 15px;
+    }
+    .hero-btn-wrap {
+        position: static;
+        transform: none;
+        margin-top: 10px;
+    }
+    /* planner*/
+    .trip-section-padding{
+        padding: 25px 0;
+    }
+    .trip-default-column {
+        max-width: 215px;
+    }
+    .trip-default-column h3 {
+        font-size: 14px;
+        margin-bottom: 25px;
+    }
+    .trip-planner-wrap {
+        display: block;
+    }
+    .trip-planner-card-data h4 {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+    .trip-planner-card-data p {
+        font-size: 10px;
+        line-height: 12px;
+    }
+    a.hero-outline-btn {
+        height: 25px;
+        font-size: 14px;
+        padding: 1px 22px;
+    }
+    .trip-planner-card{
+        margin-bottom: 30px;
+    }
+    .trip-planner-card:last-child{
+        margin-bottom: 0;
+    }
+
+    /* trip cta */
+    .trip-cta3-column {
+        display: block;
+    }
+    .trip-cta3-thumb {
+        margin-bottom: 10px;
+    }
+    .trip-cta3-thumb img{
+        width: 90px;
+    }
+    .trip-cta3-data p {
+        font-size: 12px;
+        line-height: 14px;
+    }
+
+    .trip-cta3-wrap {
+        padding: 13px;
+        margin-bottom: 25px;
+    }
+    .trip-cta3-wrap:last-child{
+        margin-bottom: 0;
+    }
+    .trip-center-button {
+        margin-top: 25px;
+    }
+    /* gallery section */
+    .trip-gallery-item {
+        height: 105px;
+    }
+    .trip-gallery-content h5 {
+        font-size: 11px;
+    }
+    .trip-gallery-content {
+        border-radius: 10px;
+        bottom: 10px;
+        padding: 5px;
+    }
+    /* iconbox */
+    .trip-iconbox-column {
+        display: block;
+    }
+    .trip-iconbox2-wrap:nth-child(1), 
+    .trip-iconbox2-wrap:nth-child(2), 
+    .trip-iconbox2-wrap:nth-child(3) {
+        margin-bottom: 24px;
+      }
+    .trip-iconbox2-thumb {
+        width: 100px;
+        margin: 0 auto 10px;
+    }
+    .trip-iconbox2-wrap {
+        padding: 20px;
+    }
+    .trip-iconbox2-data h4 {
+        font-size: 14px;
+        line-height: 22px;
+    }
+    .trip-iconbox2-data p {
+        font-size: 12px;
+        line-height: 22px;
+    }
+
+    /* slider */
+    .trip-slider-column {
+        padding: 20px;
+    }
+    .trip-slider-item {
+        display: block!important;
+    }
+    .trip-slider-data{
+        padding: 10px 0 0;
+    }
+    .trip-slider-data h4 {
+        font-size: 12px;
+    }
+    .trip-slider-data p {
+        font-size: 10px;
+        line-height: 10px;
+    }
+    .trip-slider-bottom a.hero-outline-btn {
+        height: 25px;
+        font-size: 14px;
+        padding: 0px 30px;
+        margin-top: 15px;
+    }
+    .trip-slider .prev-arrow, .trip-slider .next-arrow {
+        left: -65px;
+    }
+    .trip-slider .next-arrow {
+        right: -65px;
+        left: auto;
+    }
+    
+   
+}
+
+@media (max-width: 667px) {
+.responsive-width-right {
+    width: 70%;
+}
+.responsive-width-left {
+    width: 30%;
+}
+/* footer */
+footer.trip-footer-section {
+    padding: 14px 0;
+}
+.footer-menu ul li {
+    padding: 0;
+    display: block;
+    line-height: 1;
+}
+.footer-menu ul li a{
+    font-size: 12px;
+}
+.footer-menu ul li:before {
+    content: none;
+}
+.trip-footer-wrap img {
+    margin-bottom: 9px;
+    width: 110px;
+}
+
+}
+
+
+/*For 320-384px up Mobile Layout*/
+@media (max-width: 479px) {
+
+
+}
+@media (max-width: 400px){
+    .trip-menu-wrap {
+        margin-left: 25px;
+    }
+}
