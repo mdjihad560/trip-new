@@ -211,15 +211,24 @@
     }
     /* gallery section */
     .trip-gallery-item {
-        height: 105px;
+        height: auto;
+        background: #FFFFFF;
+        box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+        border-radius: 20px;
+        padding: 15px;
+        margin: 0 0 15px;
+    }
+    .trip-gallery-item img{
+        height: 102px;
     }
     .trip-gallery-content h5 {
-        font-size: 11px;
+        font-weight: 700;
+        font-size: 14px;
     }
     .trip-gallery-content {
-        border-radius: 10px;
-        bottom: 10px;
-        padding: 5px;
+        padding: 10px 0 0;
+        position: static;
+        width: 100%;
     }
     /* iconbox */
     .trip-iconbox-column {

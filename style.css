@@ -394,8 +394,6 @@ button#hero-newsletter-btn img{
 }
 a.hero-outline-btn {
   height: 44px;
-  left: 19px;
-  top: 10px;
   border: 1px solid #21AD96;
   border-radius: 22px;
   font-weight: 500;
@@ -416,7 +414,10 @@ a.hero-outline-btn.active{
   color: #fff;
   background-color: #21AD96;
 }
-
+a.hero-outline-btn.active.blue-bg {
+  background-color: #08A0C3;
+  border: 1px solid #08A0C3;
+}
 /* planner section */
 
 .trip-planner-section {
