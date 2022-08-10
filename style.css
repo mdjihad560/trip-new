@@ -423,7 +423,7 @@ a.hero-outline-btn.active.blue-bg {
 
 .trip-planner-section {
   background-size: cover;
-  background-position: center;
+  background-position: center top;
   overflow: hidden;
 }
 .trip-section-padding{
@@ -513,7 +513,7 @@ a.hero-outline-btn.active.blue-bg {
 }
 
 /* gallery section */
-.trip-gallery-section.trip-section-padding {
+.trip-gallery-section{
   background-size: cover;
   background-position: center;
 }

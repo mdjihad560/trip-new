@@ -232,6 +232,9 @@
         margin-top: 25px;
     }
     /* gallery section */
+    .trip-gallery-section{
+        background-image: url(../images/gallery-responsive.png)!important;
+    }
     .trip-gallery-item {
         height: auto;
         background: #FFFFFF;
@@ -252,7 +255,17 @@
         position: static;
         width: 100%;
     }
+    .collection-grid-item:nth-child(3), 
+    .collection-grid-item:nth-child(4), 
+    .collection-grid-item:nth-child(6), 
+    .collection-grid-item:nth-child(7) {
+        display: none;
+    }
+   
     /* iconbox */
+    .trip-iconbox2-section{
+        background-image: url(../images/iconbox-bg-responsive.png)!important;
+    }
    
     .trip-iconbox2-wrap:nth-child(1), 
     .trip-iconbox2-wrap:nth-child(2), 
