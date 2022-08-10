@@ -488,6 +488,7 @@ a.hero-outline-btn.active.blue-bg {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  flex-direction: row-reverse;
 }
 .trip-cta3-wrap {
   background: #FFFFFF;
@@ -661,6 +662,7 @@ a.hero-outline-btn.active.blue-bg {
 .trip-iconbox-column {
   display: flex;
   flex-wrap: wrap;
+  flex-direction: row-reverse;
   justify-content: space-between;
 }
 .trip-iconbox2-wrap {
