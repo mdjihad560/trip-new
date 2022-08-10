@@ -481,7 +481,8 @@ a.hero-outline-btn.active.blue-bg {
 /* trip cta section */
 .trip-cta3-section {
   background-size: cover;
-  background-position: center;
+  background-position-x: -40px;
+  background-repeat: no-repeat;
 }
 .trip-cta3-column {
   display: flex;
@@ -522,12 +523,18 @@ a.hero-outline-btn.active.blue-bg {
   position: relative;
   height: 320px;
   margin: 10px;
+  overflow: hidden;
+  border-radius: 20px;
 }
 .trip-gallery-item img{
   width: 100%;
   height: 100%;
   object-fit: cover;
   border-radius: 20px;
+  transition: all 0.4s;
+}
+.trip-gallery-item img:hover{
+  transform: scale(1.1)
 }
 .trip-gallery-content {
   background: #FFFFFF;
@@ -647,6 +654,10 @@ a.hero-outline-btn.active.blue-bg {
 }
 
 /* iconbox section */
+.trip-iconbox2-section {
+  background-position: center;
+  background-size: cover;
+}
 .trip-iconbox-column {
   display: flex;
   flex-wrap: wrap;
